@@ -14,7 +14,7 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 add_subdirectory(pico-ssd1306)
 
 # Link with the pico stdlib
-target_link_libraries(upb-firmware  pico_ssd1306 pico_stdlib hardware_adc hardware_i2c)
+target_link_libraries(upb-firmware pico_ssd1306 pico_stdlib hardware_adc hardware_i2c)
 
 target_include_directories(upb-firmware
     PUBLIC
