@@ -9,7 +9,7 @@ project(upb-firmware)
 
 pico_sdk_init()
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/display_controller/display_controller.cpp)
 
 add_subdirectory(pico-ssd1306)
 
