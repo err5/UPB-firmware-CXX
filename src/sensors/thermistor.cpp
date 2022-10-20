@@ -13,6 +13,7 @@ Thermistor::Thermistor(uint8_t pin, uint8_t adc,
     this->beta = beta;
     this->samples = { 1,2,3,4,5,6,7,8,9,0 };
     this->sum = 0;
+
 }
 
 
